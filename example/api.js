@@ -2,7 +2,7 @@ const OmxPlayer = require('..');
 const path = require('path');
 
 let omxplayer = new OmxPlayer();
-omxplayer.open(path.join(__dirname, '..', '..', 'Timecoded_Big_bunny_1.mov'), {loop: true, adev: 'hdmi', 'pos': 0});
+omxplayer.open(path.join(__dirname, '..', '..', 'Timecoded_Big_bunny_1.mov'), {loop: true, adev: 'hdmi', pos: 0});
 
 setTimeout(poll, 1000);
 setTimeout(poll, 4000);
