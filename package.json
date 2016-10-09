@@ -1,0 +1,19 @@
+{
+  "name": "omxplayer",
+  "version": "1.0.0",
+  "description": "A dbus interface for omxplayer (raspberry pi)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sy1vain/omxplayer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sy1vain/omxplayer/issues"
+  },
+  "homepage": "https://github.com/sy1vain/omxplayer#readme"
+}
