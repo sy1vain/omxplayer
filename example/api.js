@@ -16,7 +16,7 @@ setTimeout(()=>{
 
 setTimeout(()=>{
   omxplayer.play((err)=>{
-    console.log(`pause: ${err}`);
+    console.log(`play: ${err}`);
   });
 }, 5000);
 
