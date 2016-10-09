@@ -4,6 +4,14 @@ const path = require('path');
 let omxplayer = new OmxPlayer();
 omxplayer.open(path.join(__dirname, '..', '..', 'Timecoded_Big_bunny_1.mov'), {loop: true, adev: 'hdmi', pos: 0});
 
+omxplayer.on('close', (exitCode)=>{
+  console.log(`player closed with exitCode ${exitCode}`);
+});
+
+omxplayer.on('error', (error)=>{
+  console.log(`player return error: ${error}`);
+});
+
 setTimeout(poll, 1000);
 setTimeout(poll, 4000);
 setTimeout(poll, 6000);
