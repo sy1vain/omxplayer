@@ -1,6 +1,6 @@
 {
   "name": "omxplayer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A dbus interface for omxplayer (raspberry pi)",
   "main": "lib/OmxPlayer.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sy1vain/omxplayer#readme",
   "dependencies": {
-    "dbus-native": "^0.2.0"
+    "dbus-native": "^0.2.0",
+    "ps-node": "^0.1.4"
   }
 }
