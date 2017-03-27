@@ -1,6 +1,6 @@
 {
   "name": "omxplayer",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A dbus interface for omxplayer (raspberry pi)",
   "main": "lib/OmxPlayer.js",
   "scripts": {
