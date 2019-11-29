@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/sy1vain/omxplayer#readme",
   "dependencies": {
-    "dbus-native": "0.2.0",
-    "ps-node": "^0.1.4"
+    "dbus-native": "0.4.0",
+    "ps-node": "^0.1.6"
   }
 }
